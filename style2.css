@@ -71,6 +71,7 @@ nav span{
     background-color: #10111a;
     border-radius: 30px;
     vertical-align: top;
+    align-self: start;
 }
 .template img{
     width:100%;
