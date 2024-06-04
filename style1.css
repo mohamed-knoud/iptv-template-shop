@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family:Helvetica;
 }
-
+a{
+    text-decoration:none;
+}
 body{
     background-color:#04050e;
     background-repeat: no-repeat;
@@ -522,6 +524,10 @@ nav a {
     cursor: pointer;  
 }
 @media (max-width: 1000px) {
+    a{
+    display:block;
+        margin-bottom:10px;
+    }
     nav{
         flex-direction: column;
         align-items: center;
