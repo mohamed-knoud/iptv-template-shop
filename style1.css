@@ -21,6 +21,10 @@ nav{
     /* opacity: 0; */
     z-index: 1800;
 }
+#bars{
+    display:none;
+}
+
 
 nav h1{
     color:#fff;
@@ -527,6 +531,10 @@ nav a {
     cursor: pointer;  
 }
 @media (max-width: 1000px) {
+    #header{
+    display:flex;
+    justify-content:space-between;
+}
     a{
     display:block;
         margin-top:10px;
