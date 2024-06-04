@@ -11,10 +11,13 @@
 </head>
 <body>
     <nav>
-        <a href="index.html"><h1>IPTV <i style="color:rgb(128,255,128)" class="fa-solid fa-play"></i> TEMPLATE</h1></a>
-        <a href="index.html"><span class="active">Home</span></a>
-        <a href="templates.html"><span>IPTV Templates</span></a>
-        <a href="https://wa.me/+2120698522728"><span>Contact Us</span></a>
+        <div id="header"><a href="index.html"><h1>IPTV <i style="color:rgb(128,255,128)" class="fa-solid fa-play"></i> TEMPLATE</h1></a>
+        <i id="bars" style="color:#fff;font-size:2em;" class="fa-solid fa-bars"></i></div>
+        <div class="topnav" id="nav">
+            <a href="index.html"><span class="active">Home</span></a>
+            <a href="templates.html"><span>IPTV Templates</span></a>
+            <a href="https://wa.me/+2120698522728"><span>Contact Us</span></a>
+        </div>
     </nav>
     <div style="position: relative;margin-bottom: 100px;">
     
@@ -45,6 +48,16 @@ If you do not receive the digital product link upon purchasing, you can immediat
     <a style="color:white;text-decoration: none;" href="return-policy.html">Return Policy</a>
     <a style="color:white;text-decoration: none;" href="copyright.html">Copyrighted Content</a>
 </div>
-
+<script>
+    let bars = document.getElementById('bars')
+        let nav = document.getElementById('nav')
+        bars.addEventListener('click',function(){
+            if (nav.className === "topnav") {
+                nav.className += " responsive";
+              } else {
+               nav.className = "topnav";
+              }
+        })
+</script>
 </body>
 </html>
