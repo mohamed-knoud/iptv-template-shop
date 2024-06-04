@@ -534,8 +534,11 @@ nav a {
     #bars{
         display:block;
     }
-    #nav{
+    .topnav{
         display:none;
+    }
+    .topnav.responsive{
+        display:block;
         text-align:center;
     }
     #header{
