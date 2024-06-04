@@ -531,6 +531,9 @@ nav a {
     cursor: pointer;  
 }
 @media (max-width: 1000px) {
+    #bars{
+        display:block;
+    }
     #nav{
         display:none;
     }
