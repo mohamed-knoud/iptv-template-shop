@@ -462,7 +462,7 @@ nav a {
     display: flex;
     flex-direction:column;
     color:white;
-    margin-right:10px;
+    margin-right:5px;
     text-align: center;
 }
 .wraped i{
