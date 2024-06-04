@@ -157,7 +157,8 @@ nav span{
     margin-bottom: 30px;
     margin-left: 100px;
     z-index: 1800;
-    text-align:center;
+    width:100%;
+    margin:auto;
     /* animation: move 2s alternate;
 
     animation-timeline: view(); */
