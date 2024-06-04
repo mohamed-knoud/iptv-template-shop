@@ -143,6 +143,15 @@
     <a style="color:white;text-decoration: none;" href="copyright.html">Copyrighted Content</a>
 </div>
 <script>
+    let bars = document.getElementById('bars')
+        let nav = document.getElementById('nav')
+        bars.addEventListener('click',function(){
+            if(nav.style.display==='none')
+                nav.style.display='block'
+            else{
+                nav.style.display='none'
+            }
+        })
     var acc = document.getElementsByClassName("accordion");
     var i;
     
@@ -156,17 +165,6 @@
         }
       });
     }
-    </script>
-    <script>
-        let bars = document.getElementById('bars')
-        let nav = document.getElementById('nav')
-        bars.addEventListener('click',function(){
-            if(nav.style.display==='none')
-                nav.style.display='block'
-            else{
-                nav.style.display='none'
-            }
-        })
     </script>
     <script>
         // Function to be executed when the target element is intersecting
