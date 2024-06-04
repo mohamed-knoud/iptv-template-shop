@@ -11,6 +11,9 @@ body{
     background-size: 100%;
 
 }
+a{
+    text-decoration:none;
+]
 nav{
     background-color: #101010;
     display: flex;
