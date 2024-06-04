@@ -156,9 +156,7 @@ nav span{
 #slider{
     margin-bottom: 30px;
     margin-left: 100px;
-    z-index: 1800;
-    width:100%;
-    margin:auto;
+    z-index: 1800;;
     /* animation: move 2s alternate;
 
     animation-timeline: view(); */
@@ -332,6 +330,9 @@ i + p{
     font-size: 1.2em;
     margin-bottom: 30px;
 }
+#slider{
+            margin-left:100px;
+        }
 #how,#fre{
     text-align: center;
 
