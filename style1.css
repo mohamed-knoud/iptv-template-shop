@@ -538,6 +538,7 @@ nav a {
         }
         #hero{
             text-align: center;
+            margin-left:0;
         }
         #hero span{
             margin-left: 0;
