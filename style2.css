@@ -568,12 +568,9 @@ nav a {
 }
     a{
     display:block;
-/*         margin-top:10px; */
     }
     nav{
         flex-direction: column;
-/*         align-items: center; */
-/*         justify-content: center; */
     }
     #nav a{
         margin: 20px ;
