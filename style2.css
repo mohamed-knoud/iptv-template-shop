@@ -19,7 +19,9 @@ nav{
     /* opacity: 0; */
     z-index: 1800;
 }
-
+#bars{
+    display:none;
+}
 nav h1{
     color:#fff;
     font-size: 2em;
@@ -550,14 +552,33 @@ nav a {
     cursor: pointer;  
 }
 @media (max-width: 1000px) {
+    #bars{
+        display:block;
+    }
+    .topnav{
+        display:none;
+    }
+    .topnav.responsive{
+        display:block;
+        text-align:center;
+    }
+    #header{
+    display:flex;
+    justify-content:space-between;
+}
+    a{
+    display:block;
+/*         margin-top:10px; */
+    }
     nav{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+/*         align-items: center; */
+/*         justify-content: center; */
     }
-    nav a{
+    #nav a{
         margin: 20px ;
     }
+   
     .template{
         margin: 50px auto;
     }
