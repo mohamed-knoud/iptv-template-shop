@@ -80,11 +80,9 @@ nav span{
 .template img{
     width:100%;
     height: auto;
-    vertical-align:top;
     object-fit:cover;
     margin-bottom: 20px;
     border-radius: 30px;
-    max-height:600px;
 }
 .template span{
     color:black;
