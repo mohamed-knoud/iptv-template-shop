@@ -75,7 +75,7 @@ nav span{
     vertical-align: top;
     align-self: start;
     border:1px solid gray;
-    max-height:400px;
+    max-height:700px;
 }
 .template img{
     width:100%;
@@ -84,6 +84,7 @@ nav span{
     object-fit:cover;
     margin-bottom: 20px;
     border-radius: 30px;
+    max-height:600px;
 }
 .template span{
     color:black;
