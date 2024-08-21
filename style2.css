@@ -81,6 +81,7 @@ nav span{
     object-fit: cover;
     margin-bottom: 20px;
     border-radius: 30px;
+    border:1px solid gray;
 }
 .template span{
     color:black;
