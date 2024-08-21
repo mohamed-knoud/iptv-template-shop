@@ -95,6 +95,7 @@ nav span{
 }
 .template a{
     text-decoration: none;
+    z-index:999;
 }
 #hero{
     position: relative;
