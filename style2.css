@@ -76,6 +76,7 @@ nav span{
     align-self: start;
     border:1px solid gray;
     max-height:700px;
+    overflow:hidden;
 }
 .template img{
     width:100%;
