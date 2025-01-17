@@ -88,6 +88,12 @@ nav span{
     display:flex;
     align-items:center;
 }
+
+.slick-slider img
+{
+    display:inline-block;
+    margin-left:10px;
+}
 @keyframes move {
     0% {
         opacity: 0;
