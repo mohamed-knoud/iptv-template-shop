@@ -82,7 +82,9 @@ nav span{
     /* flex-direction: column; */
     /* align-items: center; */
 }
-.slick-slider,.slick-track,.slick-slider,.slick-list{
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
     display:flex;
     align-items:center;
 }
