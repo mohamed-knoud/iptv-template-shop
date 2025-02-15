@@ -27,6 +27,7 @@ nav{
     font-weight: bold;             /* The text will be bold */
     padding: 20px;                 /* 20px padding inside the element */
     background-color: #005be6;     /* A blue background color (#005be6) */
+    font-size:1.3em;
 }
 
 #bars{
