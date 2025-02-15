@@ -109,7 +109,7 @@ nav span{
 }
 #hero{
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding-top: 50px;
     animation: move 2s alternate;
     /* text-align: center; */
