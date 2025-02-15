@@ -19,6 +19,15 @@ nav{
     /* opacity: 0; */
     z-index: 1800;
 }
+.price{
+    position:absolute;
+    left:20px;
+    bottom:30px;
+    color:white;
+    font-weight:bold;
+    padding:20px;
+    background-color:#005be6;
+}
 #bars{
     display:none;
 }
@@ -75,6 +84,7 @@ nav span{
     vertical-align: top;
     align-self: start;
     border:1px solid gray;
+    position:relative;
 }
 .template img{
     width:100%;
