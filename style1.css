@@ -146,6 +146,35 @@ nav span{
     margin-bottom: 50px;
     cursor: pointer;
 }
+#heros p:nth-child(1){
+    font-size: 4em;
+    color: #fff;
+    font-weight: bold;
+    /* margin-left: 100px; */
+    /* margin-top: 100px; */
+}
+
+#heros p:nth-child(2){
+    font-size: 1.5em;
+    color: #fff;
+    /* margin-left: 100px; */
+    line-height: 50px;
+    font-weight:lighter;
+    margin-bottom: 20px;
+}
+
+#heros #trial{
+    color:#000;
+    background-color:#95dd4c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+    /* margin-left: 100px; */
+    display: inline-block;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
 
 #logo_hero{
 /*     width: 35%; */
