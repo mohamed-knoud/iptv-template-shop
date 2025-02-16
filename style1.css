@@ -134,7 +134,7 @@ nav span{
 }
 
 #logo_hero{
-    width: 35%;
+/*     width: 35%; */
     /* border-bottom-left-radius: 50%; */
     object-fit: cover;
     height: 500px;
